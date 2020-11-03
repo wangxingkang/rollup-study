@@ -1,7 +1,6 @@
 import path from 'path';
 import { rollup, InputOptions, OutputOptions } from 'rollup';
 import babel from '@rollup/plugin-babel';
-import json from '@rollup/plugin-json';
 
 const resolve = function(filePath: string) {
   return path.join(__dirname, '..', filePath)
@@ -10,7 +9,6 @@ const resolve = function(filePath: string) {
 const inputOptions: InputOptions = {
   input: resolve('src/index.js'),
   plugins: [
-    json(),
     babel({
       presets: ['@babel/preset-env']
     })
@@ -19,7 +17,6 @@ const inputOptions: InputOptions = {
 
 const outputOptions: OutputOptions = {
   file: resolve('dist/index.js'),
-  name: 'library',
   format: 'umd'
 } 
 

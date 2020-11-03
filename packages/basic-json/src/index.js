@@ -1,5 +1,7 @@
 import two from './two.json';
 
-export default async function(...args) {
+const test = function(...args) {
 	return two;
 }
+
+export default test;
