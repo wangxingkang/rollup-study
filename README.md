@@ -1,5 +1,12 @@
-# rollup-study
-rollup2.0 学习
+<h1 align="center">
+  rollup2.0 学习过程记录
+</h1>
+
+## 前言
+
+本库主要记录 Rollup JavaScript API 以及 Rollup的插件 的使用，包含各种使用场景的示例。
+
+本文主要对当下流行的 `ESModule`、`CommonJS`、`Umd` 三种打包格式进行，如您有其他格式的需求，可以提 [issues](https://github.com/wangxingkang/rollup-study/issues)
 
 ## Rollup 插件说明
 
