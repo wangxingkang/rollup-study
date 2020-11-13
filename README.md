@@ -20,6 +20,7 @@
 |[@rollup/plugin-alias](https://github.com/rollup/plugins/tree/master/packages/alias)|定义别名|
 |[@rollup/plugin-replace](https://github.com/rollup/plugins/tree/master/packages/replace)|替换插件|
 |[@rollup/plugin-typescript](https://github.com/rollup/plugins/tree/master/packages/typescript)|typescript编译插件|
+|[rollup-plugin-typescript2](https://github.com/ezolenko/rollup-plugin-typescript2)|社区实现的typescript编译插件|
 |[rollup-plugin-postcss](https://github.com/egoist/rollup-plugin-postcss)|css编译插件|
 |[rollup-plugin-vue](https://www.npmjs.com/package/rollup-plugin-vue)|vue编译插件|
 |[rollup-plugin-uglify](https://github.com/TrySound/rollup-plugin-uglify)|代码混淆插件|

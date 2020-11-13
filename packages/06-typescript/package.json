@@ -1,0 +1,14 @@
+{
+  "name": "06-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "ts-node ./scripts/build.ts"
+  },
+  "dependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "rollup": "^2.33.1",
+    "rollup-plugin-typescript2": "^0.29.0"
+  }
+}
