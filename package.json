@@ -10,7 +10,9 @@
     "build": "lerna run build --parallel"
   },
   "devDependencies": {
+    "@types/rimraf": "^3.0.0",
     "lerna": "^3.22.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
   },
