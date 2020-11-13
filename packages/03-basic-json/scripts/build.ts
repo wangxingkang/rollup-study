@@ -1,7 +1,8 @@
 import path from 'path';
-import { rollup, InputOptions, OutputOptions } from 'rollup';
+import { InputOptions } from 'rollup';
 import babel from '@rollup/plugin-babel';
 import json from '@rollup/plugin-json';
+import { build } from '../../../utils/build';
 
 const resolve = function(filePath: string) {
   return path.join(__dirname, '..', filePath)
@@ -17,18 +18,4 @@ const inputOptions: InputOptions = {
   ]
 };
 
-const outputOptions: OutputOptions = {
-  file: resolve('dist/index.js'),
-  name: 'library',
-  format: 'umd'
-} 
-
-async function build() {
-  // create a bundle
-  const bundle = await rollup(inputOptions);
-
-  // or write the bundle to disk
-  await bundle.write(outputOptions);
-}
-
-build();
+build('03-basic-json', inputOptions);
