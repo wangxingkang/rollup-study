@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@rollup/plugin-buble": "^0.21.3",
-    "rollup": "^2.33.0"
+    "rollup": "^2.33.1"
   }
 }
